@@ -24,7 +24,7 @@
   <body class="res">
     <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="playground.html"
+        <a class="nav__brand" href="playground.html"onclick="preventCollapse(event)"
           ><img class="logo" src="images/logoJI.png" alt=""
         /></a>
 
@@ -32,10 +32,10 @@
           <use xlink:href="images/sprite.svg#menu"></use>
         </svg>
         <ul class="list nav__list collapsible__content">
-          <li class="nav__item"><a href="projects.html">Projects</a></li>
-          <li class="nav__item"><a href="about_me.html">About me</a></li>
-          <li class="nav__item"><a href="contact_me.html">Contact Info</a></li>
-          <li class="nav__item"><a href="resume.html">Resume</a></li>
+          <li class="nav__item"><a href="projects.html" onclick="preventCollapse(event)">Projects</a></li>
+          <li class="nav__item"><a href="about_me.html" onclick="preventCollapse(event)">About me</a></li>
+          <li class="nav__item"><a href="contact_me.html" onclick="preventCollapse(event)">Contact Info</a></li>
+          <li class="nav__item"><a href="resume.html" onclick="preventCollapse(event)">Resume</a></li>
         </ul>
       </nav>
     </header>
@@ -240,5 +240,8 @@
           this.blur();
       });
   </script>
+  <script>function preventCollapse(event) {
+    event.stopPropagation(); // Evita que el evento se propague hacia arriba
+  }</script>
   </body>
 </html>

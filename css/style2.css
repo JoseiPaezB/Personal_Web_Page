@@ -793,8 +793,10 @@ a{
     }
     .nav__item{
         border:0; 
+        
     }.nav{
         flex-wrap: nowrap;
+        
     }
     
 }
