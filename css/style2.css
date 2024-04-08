@@ -1100,6 +1100,11 @@ textarea {
     padding:0 4vw; 
 }
 
+.no-touch .btn__contactme:hover{
+    background:transparent;
+    color:rgb(189, 187, 187);
+}
+
 
 .res .nav.collapsible--expanded{
     font-size:2.4rem; 
