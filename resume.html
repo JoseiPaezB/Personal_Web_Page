@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style2.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <body class="resume__body">
+    <header>
+      <nav class="nav collapsible">
+        <a class="nav__brand" href="playground.html"
+          ><img class="logo" src="images/logoJI.png" alt=""
+        /></a>
+
+        <svg class="icon icon--white nav__toggler">
+          <use xlink:href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="projects.html">Projects</a></li>
+          <li class="nav__item"><a href="about_me.html">About me</a></li>
+          <li class="nav__item"><a href="contact_me.html">Contact Info</a></li>
+          <li class="nav__item"><a href="resume.html">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="block block--dark hero resume" data-aos="fade-down">
+      <div class="resume__container">
+        <object
+          class="object__resume"
+          data="files/CV Jose Ignacio Paez (2).pdf"
+          type="application/pdf"
+          width="100%"
+          height="100%"
+        ></object>
+        <p class="object__text">
+          If the file is not visible
+          <a href="files/CV Jose Ignacio Paez (2).pdf">click here</a> to see
+        </p>
+      </div>
+    </section>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

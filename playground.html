@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style2.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <body>
+    
+    <header>
+      <nav class="nav collapsible">
+        <a class="nav__brand" href="playground.html"><img class="logo" src="#" alt="" /></a>
+        <svg class="icon icon--white nav__toggler">
+          <use xlink:href="images/sprite.svg#menu" style="pointer-events: none;"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="projects.html">Projects</a></li>
+          <li class="nav__item"><a href="about_me.html">About me</a></li>
+          <li class="nav__item"><a href="contact_me.html">Contact Info</a></li>
+          <li class="nav__item"><a href="resume.html">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="block block--dark hero" >
+      <div class="container">
+        <header class="block__header hero__content">
+          <h1 class="block__heading"data-aos="fade-up">Jose Ignacio Paez</h1>
+          
+          <a href="https://www.instagram.com/__paezz__/" >
+              <span class="icon-container"
+                ><i class="fa-brands fa-instagram" data-aos="fade-left"></i></span
+              >
+          </a><a href="https://github.com/JoseiPaezB">
+              <span class="icon-container"
+                ><i class="fa-brands fa-github"data-aos="fade-left"></a></i></span
+              >
+          <a href="https://www.linkedin.com/in/jose-ignacio-paez-batallas-6b9261221/">
+              <span class="icon-container"
+                ><i class="fa-brands fa-linkedin"data-aos="fade-left"></i
+              ></span>
+          </a>
+        </header>
+      </div>
+    </section>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
