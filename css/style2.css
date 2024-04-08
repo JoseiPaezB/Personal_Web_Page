@@ -789,14 +789,18 @@ a{
         font-size:1.6rem;  
         max-height:100%; 
         opacity:1;
+        
 
     }
     .nav__item{
         border:0; 
         
-    }.nav{
-        flex-wrap: nowrap;
+    }.collapsible{
+        pointer-events: none;
+       
         
+    }.collapsible a{
+        pointer-events:all; 
     }
     
 }
