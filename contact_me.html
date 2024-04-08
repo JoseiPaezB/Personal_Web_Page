@@ -230,5 +230,15 @@
     <script>
       AOS.init();
     </script>
+    <script>
+      // Get a reference to the submit button
+      const submitButton = document.querySelector('.btn__contactme');
+
+      // Listen for the click event on the submit button
+      submitButton.addEventListener('click', function() {
+          // Remove focus from the button
+          this.blur();
+      });
+  </script>
   </body>
 </html>
