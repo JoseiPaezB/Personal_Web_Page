@@ -1177,10 +1177,15 @@ textarea {
     color:#fff; 
 
 }
+
+.object__resume{
+    visibility:hidden; 
+}
 @media screen and (min-width:768px){
     .object__resume{
         width:100%; 
         height:200%; 
+        visibility: visible;
     }
     .object__text{
         font-size:1.8rem; 
