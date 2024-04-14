@@ -802,11 +802,10 @@ a{
        
         
     }.collapsible a{
-        pointer-events:all; 
+        pointer-events:all;     
     }
     
 }
-
 
 
 .hero__tagline{
