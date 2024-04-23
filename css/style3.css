@@ -1,0 +1,18 @@
+article {
+    display: grid;
+    grid-template-columns: 1;
+    grid-auto-rows: minmax(100px, auto);
+    
+}
+
+@media screen and (min-width: 1025px) {
+    article {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .text:nth-of-type() {
+        grid-column: 2;
+        grid-row: 2;
+    }
+}
