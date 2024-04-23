@@ -1117,6 +1117,10 @@ textarea {
 .res .nav.collapsible--expanded{
     font-size:2.4rem; 
     line-height: 1;
+}.res .collapsible{
+    font-size:1.8rem; 
+    line-height: 1;
+
 }
 @media screen and (min-width:768px){
     form{
