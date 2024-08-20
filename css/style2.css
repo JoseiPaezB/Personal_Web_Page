@@ -1319,6 +1319,7 @@ textarea {
 @media screen and (max-width:768px){
     .about{
         font-size:1.8rem; 
+        color: #fff !important;
     }
 }
 
