@@ -721,7 +721,7 @@ a{
     
 }
 .aboutme__content{
-    color:#fff; 
+    color:#fff !important; 
 }
 
 
@@ -1182,7 +1182,7 @@ textarea {
     color:#fff; 
 }
 .oject__text,.about {
-    color:#9b9898; 
+    /*color:#9b9898;*/ 
     font-size:2.4rem; 
 }
 .about:hover{
