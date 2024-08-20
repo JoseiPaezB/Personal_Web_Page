@@ -1322,3 +1322,7 @@ textarea {
     }
 }
 
+.work{
+    font-style: italic;
+    font-weight:600; 
+}
