@@ -895,3 +895,9 @@ a{
 .work{
     font-style: italic;
 }
+
+@media screen and (max-width:768px){
+    .plan_special{
+        width:100%; 
+    }
+}
